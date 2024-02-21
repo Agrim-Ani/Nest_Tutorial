@@ -22,9 +22,21 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## MyLeanring:
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Key_Points]
+- NestJS is a Node.js based progressive [Node.js](http://nodejs.org/) framework for building efficient and scalable server-side applications.
+- Basic Route Creation
+- Controllers
+- Services
+- Modules
+- Repository Layer
+- db compatible- MongoDB, TypeORM
+[Controlller] - responsible for handelling request and responses, i.e handels incoming request and sends back response. Our work is primarily with the .controller file to build logic.
+[Services] - Used because we don't want to write all the code in one single function call which makes a function lot harder to test and also increases repititive code.
+[Injectibles/Providers] - cusromer.service is a provider i.i an injectible that can be injected in any class.
+[Repository_layer] - interactis with db and is responsible for CRUD Operations
 
 ## Installation
 
@@ -64,9 +76,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Agrim Sangotra](https://agrimaniportfolio.netlify.app)
 
 ## License
 
