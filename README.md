@@ -33,10 +33,10 @@
 - Modules
 - Repository Layer
 - db compatible- MongoDB, TypeORM
-[Controlller] - responsible for handelling request and responses, i.e handels incoming request and sends back response. Our work is primarily with the .controller file to build logic.
-[Services] - Used because we don't want to write all the code in one single function call which makes a function lot harder to test and also increases repititive code.
-[Injectibles/Providers] - cusromer.service is a provider i.i an injectible that can be injected in any class.
-[Repository_layer] - interactis with db and is responsible for CRUD Operations
+- [Controlller] - responsible for handelling request and responses, i.e handels incoming request and sends back response. Our work is primarily with the .controller file to build logic.
+- [Services] - Used because we don't want to write all the code in one single function call which makes a function lot harder to test and also increases repititive code.
+- [Injectibles/Providers] - cusromer.service is a provider i.i an injectible that can be injected in any class.
+- [Repository_layer] - interactis with db and is responsible for CRUD Operations
 
 ## Installation
 
